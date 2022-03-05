@@ -1,5 +1,7 @@
 package asciiPanel;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
@@ -118,7 +120,6 @@ public class AsciiPanel extends JPanel {
     private char[][] oldChars;
     private Color[][] oldBackgroundColors;
     private Color[][] oldForegroundColors;
-
 
     private AsciiFont asciiFont;
 
